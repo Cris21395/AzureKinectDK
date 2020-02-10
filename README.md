@@ -1,7 +1,7 @@
 # AzureKinectDK
 Azure Kinect Project Sample compatible both with Azure Kinect Sensor SDK and with Azure Kinect Body Tracking SDK using UE4
 
-# Environment
+# Tested environment
 
 * Windows 10 Pro (ver 1903)
 * [Azure Kinect Sensor SDK v1.3.0](https://docs.microsoft.com/en-us/azure/kinect-dk/sensor-sdk-download)
@@ -12,5 +12,5 @@ Azure Kinect Project Sample compatible both with Azure Kinect Sensor SDK and wit
 
 1. Clone this repository.
 2. Add `C:\Program Files\Azure Kinect Body Tracking SDK\tools` to the Environment variable's path.
-3. Paste only the `dnn_model_2_0.onnx` and `cudnn64_7.dll` into the `Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64`.
+3. Paste only the `dnn_model_2_0.onnx` and `cudnn64_7.dll` into the `Program Files/Epic/Games/<Unreal_Installation>/Engine/Binaries/Win64`.
 4. Play the sample located at Map folder.
